@@ -5,7 +5,7 @@ on:
   - workflow_dispatch
 jobs:
   verify:
-    runs-on: macos-13
+    runs-on: ubuntu-latest
     # Unable to write to usr/local/share in latest versions of macOS (14, 15, latest, etc.)
     # https://github.com/actions/runner-images/issues/9272
     steps:
